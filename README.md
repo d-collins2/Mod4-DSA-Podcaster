@@ -17,4 +17,15 @@ To get started with this application, fork and clone the respository to your har
 
 ## Models
 
-There are 4 models which Podcaster utilizes: 
+There are 3 models which Podcaster utilizes: 
+
+### Playlist 
+
+The ```Playlist``` model is a join table between a ```User``` and a ```Podcast``` which shows all of the relationships between users. The current user is only shown their relationships through a filter on the front-end. 
+
+### Podcast 
+
+The ```Podcast``` model is the most utilized model in the app. The relationship between a ```Podcast``` and a ```Episode``` allows any user to play the podcast's many episodes. Any ```User``` is allowed to save a podcast and store it in their own playlist for future use. 
+
+### User
+The User model handles all aspects of user accounts, including login/signup, and editing information.
