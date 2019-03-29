@@ -25,7 +25,7 @@ The ```Playlist``` model is a join table between a ```User``` and a ```Podcast``
 
 ### Podcast 
 
-The ```Podcast``` model is the most utilized model in the app. The relationship between a ```Podcast``` and a ```Episode``` allows any user to play the podcast's many episodes. Any ```User``` is allowed to save a podcast and store it in their own playlist for future use. 
+The ```Podcast``` model is the most utilized model in the app. The one to many relationship between a ```Podcast``` and its ```Episodes``` allows any user to play the podcast's many episodes. Any ```User``` is allowed to save a podcast and store it in their own playlist for future use. 
 
 ### User
 The User model handles all aspects of user accounts, including login/signup, and editing information.
